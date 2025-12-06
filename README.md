@@ -84,6 +84,8 @@ The application will automatically reload when source files are modified.
 4. **Checkout** (`/checkout`): Fill out customer information form
 5. **Confirmation** (`/confirmation`): View order success message
 
+<img width="783" height="765" alt="image" src="https://github.com/user-attachments/assets/058fbde6-f7d5-441b-a8d3-e3afc23a37f2" />
+
 ## Technical Implementation
 
 ### Data Flow
@@ -141,5 +143,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
 
 
