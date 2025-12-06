@@ -1,0 +1,49 @@
+footer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* Unique gradient by Hasan */
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 3px solid #764ba2;
+  font-size: 0.95rem;
+  margin-top: 2.5rem;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Links inside the footer */
+footer a,
+footer span {
+  color: #ffd700;
+  /* Gold color for links - Hasan's style */
+  text-decoration: none;
+  margin: 0 0.6rem;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+/* Optional social icons or secondary info */
+.footer-info {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: #f0f0f0;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+  footer {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+
+  footer a {
+    display: inline-block;
+    margin: 0.3rem;
+  }
+}

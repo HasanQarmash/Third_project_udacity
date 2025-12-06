@@ -1,0 +1,21 @@
+<div class="product-list-container">
+  <h1>🛍️ Featured Products Collection</h1>
+  <p class="subtitle">Curated by Hasan Qarmash</p>
+
+  <div *ngIf="loading" class="loading">
+    <p>⏳ Loading amazing products for you...</p>
+  </div>
+
+  <div *ngIf="error" class="error">
+    <p>{{ error }}</p>
+  </div>
+
+  <div class="products-grid" *ngIf="!loading && !error">
+    <app-product-item *ngFor="let product of products" [product]="product" (addToCart)="onAddToCart($event)">
+    </app-product-item>
+  </div>
+
+  <div *ngIf="!loading && !error && products.length === 0" class="no-products">
+    <p>⚠️ No products available right now. Please check back soon!</p>
+  </div>
+</div>
