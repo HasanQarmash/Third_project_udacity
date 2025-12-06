@@ -20,6 +20,9 @@ This StoreFront is a modern Angular-based e-commerce application developed by Ha
 - **Responsive Design**: Mobile-friendly UI with modern styling
 - **User Feedback**: Alerts when products are added to cart
 
+<img width="1903" height="748" alt="image" src="https://github.com/user-attachments/assets/cd67b3da-4837-46d7-81a5-26dd1e11f77a" />
+
+
 ## Installation and Launch
 
 ### Prerequisites
@@ -136,3 +139,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
